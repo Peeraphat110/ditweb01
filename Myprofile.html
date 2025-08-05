@@ -9,6 +9,17 @@
     <meta name=" author" content="Peet DTI_SAU">
     <title>peeraphat khunrakprom</title>
     <link rel="shortcut icon" href="./image/dev-black.png" type="image/x-icon">
+    <style>
+        h1 {
+            color: #0000ff;
+        }
+
+        hr {
+            width: 75%;
+        }
+    </style>
+    <link rel="stylesheet" href="./css/style.css">
+
 </head>
 
 <body>
@@ -16,12 +27,8 @@
         <img src="./image/dev-black.png" alt="พีระภัทร">
     </div>
     <div>
-        <h1>
-            พีระภัทร ขุนรักพรหม
-        </h1>
-        <span>
-            Web Developer
-        </span>
+        <h1 style="text-align: center;">พีระภัทร ขุนรักพรหม</h1>
+        <span class="wow">Web Developer </span>
     </div>
     <hr />
     <div>
@@ -32,9 +39,21 @@
         </p>
     </div>
     <hr />
-    <button>
+    <button onclick="showWelcome()">
         CLICK ME
     </button>
+    <hr />
+    <button onclick="showByeBye()">
+        CLICK YOU
+    </button>
+
+    <script>
+
+        function showWelcome() {
+            alert("Welcome to DTI_SAU");
+        }
+    </script>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
